@@ -7,7 +7,7 @@ An enterprise-grade, lightweight and zero-maintenance birthday tracking engine b
 
 ## 🛠 Project Architecture & Data Flow
 ```
-📁 birthday-reminder 
+📁 Birthday-Reminder-Bot
 
 ├── 📄 birthdays.csv             
 ├── 📄 reminder.py             
@@ -93,4 +93,21 @@ To verify tracking activity, open your repository's **Actions** tab, choose your
 * **`Running privacy engine scan...`**: Indicates the runtime server initialized correctly and read your current system calendar timezone.
 * **`Notification queued (Advance): [Name]`**: The logic discovered a match scheduled for tomorrow. The alert has been sent.
 * **`Notification queued (Exact Day): [Name]`**: The logic discovered an anniversary matching today's date. The menu interface containing your three custom message options has been dispatched to Telegram.
+
+---
+
+## 🧑‍💻 Developer 
+
+**Akash Pramanik**
+
+<p>
+  <strong>For questions or support: </strong>
+<a href="https://instagram.com/akash.098p" target="_blank">
+  <img src="https://img.shields.io/badge/akash.098p-E4405F?style=flat&logo=instagram&logoColor=white"/>
+</a> 
+
+<a href="mailto:akashpramanik098@gmail.com">
+  <img src="https://img.shields.io/badge/akashpramanik422%40gmail.com-D14836?style=flat&logo=gmail&logoColor=white"/>
+</a>
+</p>
 
