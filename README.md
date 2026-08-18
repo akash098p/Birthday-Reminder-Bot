@@ -84,8 +84,8 @@ A zero-maintenance birthday tracking engine built using Python and GitHub Action
 ## 📸 Demo
 
 <p align="center">
-  <!-- Add your Telegram notification screenshot here -->
-  <img src="" width="450" alt="Birthday Reminder Bot Demo"/>
+  <img src="https://github.com/user-attachments/assets/fe62e7e7-ab27-42bc-9ba4-e2b0153521d8" width="49%" alt="Birthday Reminder Bot Demo"/>
+  <img src="https://github.com/user-attachments/assets/fe62e7e7-ab27-42bc-9ba4-e2b0153521d8" width="49%" alt="Birthday Reminder Bot Demo"/>
 </p>
 
 ---
