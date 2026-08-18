@@ -27,7 +27,7 @@ def parse_flexible_date(date_str):
     raise ValueError(f"Unknown date structure: {date_str}")
 
 def evaluate_calendar():
-    # FIX: Force alignment to Indian Standard Time (UTC + 5:30) regardless of GitHub server location
+    # Force alignment to Indian Standard Time (UTC + 5:30) regardless of GitHub server location
     utc_now = datetime.utcnow()
     ist_now = utc_now + timedelta(hours=5, minutes=30)
     
