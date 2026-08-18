@@ -1,8 +1,22 @@
+<div align="center">
+
 # 🎂 Automated Birthday Tracker & Notification Engine
 
-[![Python 3.11](https://img.shields.io/badge/Python-3.11-3776AB?style=for-the-badge&logo=python&logoColor=white)](https://www.python.org/)
-[![GitHub Actions](https://img.shields.io/badge/GitHub%20Actions-Automated-2088FF?style=for-the-badge&logo=github-actions&logoColor=white)](https://github.com/akash098p/Birthday-Reminder-Bot/actions)
-[![Telegram Bot](https://img.shields.io/badge/Telegram-Bot-26A5E4?style=for-the-badge&logo=telegram&logoColor=white)](https://telegram.org/)
+### ✨ Smart • Automated • Zero-Maintenance Birthday Notifications
+
+<p>
+  <img src="https://img.shields.io/badge/Python-3.11-3776AB?style=for-the-badge&logo=python&logoColor=white" alt="Python 3.11"/>
+  <img src="https://img.shields.io/badge/GitHub_Actions-Automated-2088FF?style=for-the-badge&logo=github-actions&logoColor=white" alt="GitHub Actions"/>
+  <img src="https://img.shields.io/badge/Telegram-Bot-26A5E4?style=for-the-badge&logo=telegram&logoColor=white" alt="Telegram Bot"/>
+</p>
+
+<p>
+  <img src="https://img.shields.io/badge/Status-Active-22C55E?style=for-the-badge&logo=statuspage&logoColor=white" alt="Status Active"/>
+  <img src="https://img.shields.io/badge/Automation-Daily-8B5CF6?style=for-the-badge&logo=githubactions&logoColor=white" alt="Daily Automation"/>
+  <img src="https://img.shields.io/badge/License-Open_Source-F59E0B?style=for-the-badge&logo=opensourceinitiative&logoColor=white" alt="Open Source"/>
+</p>
+
+</div>
 
 An enterprise-grade, lightweight and zero-maintenance birthday tracking engine built using Python and GitHub Actions. This system automatically triggers customized alerts via Telegram **1 day before** a contact's birthday and on the **exact day**. 
 
