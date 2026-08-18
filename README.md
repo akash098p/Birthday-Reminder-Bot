@@ -1,5 +1,9 @@
 # 🎂 Automated Birthday Tracker & Notification Engine
 
+[![Python 3.11](https://img.shields.io/badge/Python-3.11-3776AB?style=for-the-badge&logo=python&logoColor=white)](https://www.python.org/)
+[![GitHub Actions](https://img.shields.io/badge/GitHub%20Actions-Automated-2088FF?style=for-the-badge&logo=github-actions&logoColor=white)](https://github.com/akash098p/Birthday-Reminder-Bot/actions)
+[![Telegram Bot](https://img.shields.io/badge/Telegram-Bot-26A5E4?style=for-the-badge&logo=telegram&logoColor=white)](https://telegram.org/)
+
 An enterprise-grade, lightweight and zero-maintenance birthday tracking engine built using Python and GitHub Actions. This system automatically triggers customized alerts via Telegram **1 day before** a contact's birthday and on the **exact day**. 
 
 
