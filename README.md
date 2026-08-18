@@ -37,37 +37,30 @@ A zero-maintenance birthday tracking engine built using Python and GitHub Action
 
 ## 🔄 How It Works
 
-<p align="center">
-
-**📄 Birthday Data**
-
-`birthdays.csv`
-
-&nbsp;&nbsp;➜&nbsp;&nbsp;
-
-**⚙️ Daily Scheduler**
-
-`GitHub Actions`
-
-&nbsp;&nbsp;➜&nbsp;&nbsp;
-
-**🐍 Birthday Engine**
-
-`reminder.py`
-
-&nbsp;&nbsp;➜&nbsp;&nbsp;
-
-**🤖 Telegram API**
-
-`Notification`
-
-&nbsp;&nbsp;➜&nbsp;&nbsp;
-
-**📱 Birthday Alert**
-
-</p>
-
-> **In short:** GitHub Actions runs the Python script every day → the script checks `birthdays.csv` → matching birthdays are detected → Telegram sends the notification.
+```text
+┌───────────────────┐
+│   birthdays.csv   │
+│  Birthday Data    │
+└─────────┬─────────┘
+          ↓
+┌───────────────────┐
+│  GitHub Actions   │
+│  Daily Scheduler  │
+└─────────┬─────────┘
+          ↓
+┌───────────────────┐
+│    reminder.py    │
+│ Birthday Detection│
+└─────────┬─────────┘
+          ↓
+┌───────────────────┐
+│  Telegram Bot API │
+└─────────┬─────────┘
+          ↓
+┌───────────────────┐
+│ 📱 Notification   │
+└───────────────────┘
+```
 
 ---
 
