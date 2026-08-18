@@ -1,0 +1,28 @@
+name: Birthday Tracker Engine
+
+on:
+  schedule:
+    # 18:45 UTC translates precisely to 12:15 AM (Midnight Cushion) Indian Standard Time
+    - cron: '45 18 * * *'
+  workflow_dispatch:
+
+jobs:
+  execute-pipeline:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Pull Source Files From Main Branch
+        uses: actions/checkout@v4
+
+      - name: Initialize Isolated Environment
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+
+      - name: Deploy Dependencies
+        run: pip install requests
+
+      - name: Trigger Notification System
+        env:
+          TELEGRAM_TOKEN: ${{ secrets.TELEGRAM_TOKEN }}
+          TELEGRAM_CHAT_ID: ${{ secrets.TELEGRAM_CHAT_ID }}
+        run: python reminder.py
