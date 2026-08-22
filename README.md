@@ -1,19 +1,15 @@
 <div align="center">
-
+  
 # 🎂 Automated Birthday Tracker & Notification Engine
 
 ### ✨ Smart • Automated • Zero-Maintenance Birthday Notifications
 
 <p>
   <img src="https://img.shields.io/badge/Python-3.11-3776AB?style=for-the-badge&logo=python&logoColor=white" alt="Python 3.11"/>
-  <img src="https://img.shields.io/badge/GitHub_Actions-Automated-2088FF?style=for-the-badge&logo=github-actions&logoColor=white" alt="GitHub Actions"/>
   <img src="https://img.shields.io/badge/Telegram-Bot-26A5E4?style=for-the-badge&logo=telegram&logoColor=white" alt="Telegram Bot"/>
-</p>
-
-<p>
-  <img src="https://img.shields.io/badge/Status-Active-22C55E?style=for-the-badge&logo=statuspage&logoColor=white" alt="Status Active"/>
+  <img src="https://img.shields.io/badge/GitHub_Actions-Automated-2088FF?style=for-the-badge&logo=github-actions&logoColor=white" alt="GitHub Actions"/>
   <img src="https://img.shields.io/badge/Automation-Daily-8B5CF6?style=for-the-badge&logo=githubactions&logoColor=white" alt="Daily Automation"/>
-  <img src="https://img.shields.io/badge/License-Open_Source-F59E0B?style=for-the-badge&logo=opensourceinitiative&logoColor=white" alt="Open Source"/>
+  
 </p>
 
 </div>
